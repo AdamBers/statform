@@ -7,7 +7,6 @@ import {
   Typography,
   Grid,
   Collapse,
-  //   IconButton,
   InputAdornment,
 } from "@mui/material";
 import {
@@ -146,7 +145,6 @@ const FilterPanel: React.FC<FilterPanelProps> = ({ onFilterChange }) => {
         </Grid>
       </Box>
 
-      {/* Расширенные фильтры */}
       <Collapse in={expanded}>
         <Box sx={{ pt: 2, borderTop: 1, borderColor: "divider" }}>
           <Grid container spacing={2}>
